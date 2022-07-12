@@ -196,6 +196,7 @@ body{
 .progress{
     margin-bottom:20px;
     width:90%;
+    height: 20px!important;
 }
 .progress-bar{
     background:linear-gradient(to left, #d53a9d,#743ad5)!important;
