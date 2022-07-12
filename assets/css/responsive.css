@@ -15,6 +15,25 @@
     .intro h4{
         text-align: center;
     }
+    .intro-footer i{
+        display:block!important;
+        margin:0 auto!important;
+        text-align: center;
+        margin-bottom:10px!important;
+        
+    }
+    .intro-footer p{
+        display:block!important;
+        margin:0 auto!important;
+        text-align: center;
+        margin-bottom:10px!important;
+    }
+    .intro-footer h6{
+        display:block!important;
+        margin:0 auto!important;
+        text-align: center;
+        margin-bottom:10px!important;
+    }
     .img1{
         display:block;
         margin:0 auto;
