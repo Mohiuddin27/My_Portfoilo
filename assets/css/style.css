@@ -1,0 +1,202 @@
+body{
+    background-color:rgb(24, 24, 24)!important;
+   
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-item a{
+    color:white!important;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255)!important;
+    border-color: rgb(255, 255, 255)!important;
+}
+.navbar-light .navbar-toggler-icon {
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+    
+ 
+ }
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+.intro{
+    margin-top:120px;
+    padding-left:60px;
+}
+.intro  .image img{
+    object-fit:fill;    
+    border:5px solid #A13ABB;
+    border-radius: 50%;
+}
+.intro h4{
+    padding-top:70px;
+    align-items: center;
+    line-height: 40px;
+    font-size:30px;
+}
+.intro h4 span:before{
+    content:'';
+    background:'';
+    animation: animate infinite 8s;
+}
+@keyframes animate{
+    0%{
+        content:'Web Design.';
+        background: -webkit-linear-gradient(#743ad5 50%, #d53a9d 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    }
+    20%{
+        content:'Web Development.';
+        background: -webkit-linear-gradient(#743ad5 50%, #d53a9d 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    40%{
+        content:'Web Design.';
+        background: -webkit-linear-gradient(#743ad5 50%, #d53a9d 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    60%{
+        content:'Web Development.';
+        background: -webkit-linear-gradient(#743ad5 50%, #d53a9d 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    80%{
+        content:'Web Design.';
+        background: -webkit-linear-gradient(#743ad5 50%, #d53a9d 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        content:'Web Development.';
+        background: -webkit-linear-gradient(#743ad5 50%, #d53a9d 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}
+.intro-footer{
+    margin-top:140px;
+    margin-right:40px;
+}
+.intro-footer p{
+    font-size:11px;
+    margin-top:5px;
+}
+.intro-footer h6{
+    font-size:20px;
+}
+.fa.fa-envelope-o{
+     color: #d53a9d;
+    font-size: 30px;
+}
+
+.hrr hr{
+   
+    /* border:1px solid transparent; */
+    background-image:linear-gradient(to left, #d53a9d,#743ad5);
+    height:2px!important;
+    width:60%;
+    /* border-image-slice: 1; */
+  
+}
+
+.about-two h2{
+    padding-left:50px;
+    padding-bottom:10px;
+    font-size:35px;
+    background: -webkit-linear-gradient(#743ad5 50%, #d53a9d 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-two h6{
+    font-size:22px;
+}
+.about-two p{
+    font-size:13px;
+}
+.button .btn{
+  background-color: red;
+  color:white;
+}
+.button .btn:hover{
+    background-color: red;
+    color:white;
+  }
+.hrr{
+    width:100%;
+    float:left;
+}
+.hrrr{
+    width:100%;
+    float:left;
+}
+.hrrr .hrrr2 hr{
+    background-image:linear-gradient(to left, #d53a9d,#743ad5);
+    height:3px!important;
+    width:60%;
+    float:right;
+}
+.service-head h2{
+    background:linear-gradient(to left, #d53a9d,#743ad5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size:37px;
+
+}
+.service-head p{
+    color:white;
+    font-style: italic;
+    font-size:12px;
+}
+.contentone{
+    background-color:rgba(41, 41, 41, 0.304);
+    width:90%;
+    border-radius: 10px;
+    padding-top:10px;
+    color:white;
+}
+.contentone .fa{
+    background: -webkit-linear-gradient(#743ad5, #d53a9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contentone h4{
+    font-size:19px;
+}
+.contentone p{
+    font-size:13px;
+}
+.myskillhead h2{
+    background:linear-gradient(to left, #d53a9d,#743ad5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size:37px;
+}
+.myskillhead p{
+    color:white;
+    font-style: italic;
+}
+.progress{
+    margin-bottom:20px;
+    width:90%;
+}
+.progress-bar{
+    background:linear-gradient(to left, #d53a9d,#743ad5)!important;
+}
